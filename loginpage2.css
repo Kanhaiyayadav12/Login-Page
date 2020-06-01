@@ -1,0 +1,92 @@
+*{
+ 		margin:0;
+ 		padding:0;
+ 		box-sizing: border-box;
+ 		font-family: 'Poppins', sans-serif; 
+ 	}
+	section{
+		position: relative;
+		min-height: 100vh;
+		background: #ccc;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+	}
+	section .content{
+		position: relative;width: 800px;
+		height: 500px;
+		background: #fff;
+		box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+	}
+	section .content .uear{
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+	}
+	section .content .uear .formbx{
+		position: relative;
+		width: 50%;
+		height: 100%;
+		background: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 40px;
+		transition:0.5s; 
+	}
+	section .content .uear .formbx form h2{
+       font-size: 18px;
+       font-weight:600;
+       text-transform: uppercase;
+       letter-spacing: 2px;
+       text-align: center;
+       width: 100%;
+       margin-bottom: 10px;
+       color: #555;
+   }
+	section .content .uear .formbx form input{
+       position: relative;
+       width: 100%;
+       padding: 10px;
+       background: #f5f5f5;
+       color: #333;
+       border: none;
+       outline:none;
+       box-shadow:none;
+       margin: 8px 0;
+       font-size: 14px;
+       letter-spacing: 1px;
+       font-weight: 300;  
+     
+   }
+	section .content .uear .formbx form input[type="submit"]{
+	    max-width: 100px;
+	    background: #677eff;
+	    color: #fff;
+	    cursor: pointer;
+	    font-size: 14px;
+	    font-weight: 500;
+	    letter-spacing: 1px;
+	    transition:0.5s; 
+
+	}
+	section .content .uear .formbx form .signup{
+       position: relative;
+       margin-top: 20px;
+       font-size: 12px;
+       letter-spacing: 1px;
+       cursor: #555;
+       text-transform: uppercase;
+       font-weight: 300;
+	}
+	section .content .uear .formbx form .signup a{
+      font-weight: 600;
+      text-decoration: none; 
+      color: #677eff;
+
+
+	}
